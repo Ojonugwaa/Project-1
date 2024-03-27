@@ -1,0 +1,85 @@
+html body{
+    width: 100%;
+}
+#first{
+    margin: 120px 20px;
+}
+#logIn{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#detail{
+   
+    background-color: white;
+    display: block;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 5px 20px;
+}
+p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px 20px;
+    color: rgb(48, 48, 70);
+}
+#second{
+    margin: 100px 40px;
+}
+h3{
+    margin: 200px 80px 80px 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#license{
+    color: red;
+    font-weight: bold;
+    
+}
+#health{
+    position: relative;
+   
+    margin: 0;
+}
+
+#pic2{
+    position: absolute;
+    left: 50px;
+    bottom: 150px;
+}
+
+@media (max-width: 768px){
+    
+
+    #health{
+        position: relative;
+    }
+    #detail{
+        position: absolute;
+        text-align: center;
+        margin: 100px 120px 100px 120px;
+        z-index: 2;
+        background-color: rgb(219, 219, 235);
+    }
+    #first{
+        margin: 80px 20px;
+    }
+    h1{
+        
+        margin: 5px 20px;
+    }
+    p{
+        margin: 10px 20px;
+        
+    }
+    #second{
+        margin: 60px 40px;
+    }
+    h3{
+        margin: 0px 80px 80px 50px;
+    }
+    
+}
